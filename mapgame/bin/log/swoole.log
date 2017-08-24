@@ -1,0 +1,41 @@
+[2017-08-24 09:08:25 $175.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:37:11 $175.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:37:40 $175.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:38:59 $175.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:39:45 $175.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:40:45 $175.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:40:51 ^241.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\DispatchHelp' not found in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:281
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributed
+[2017-08-24 09:40:51 $175.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-08-24 09:41:46 $175.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:42:10 ^260.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\DispatchHelp' not found in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:281
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributed
+[2017-08-24 09:42:10 $256.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-08-24 09:43:06 ^278.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Class 'Server\DispatchHelp' not found in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:281
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributed
+[2017-08-24 09:43:06 $274.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-08-24 09:43:56 $274.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:46:33 $302.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:49:50 $302.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:50:21 $302.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:50:21 $302.0]	ERROR	swManager_loop(:272): wait() failed. Error: Interrupted system call[4].
+[2017-08-24 09:51:12 $302.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:55:14 $372.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:55:39 $372.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:58:26 $407.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:58:50 $407.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:59:02 $407.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:59:21 $407.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:59:24 $407.0]	NOTICE	Server is reloading now.
+[2017-08-24 09:59:45 $407.0]	NOTICE	Server is reloading now.
+[2017-08-24 10:00:01 $407.0]	NOTICE	Server is reloading now.
+[2017-08-24 10:02:17 $407.0]	NOTICE	Server is reloading now.
