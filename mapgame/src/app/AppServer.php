@@ -40,6 +40,11 @@ class AppServer extends SwooleDistributedServer
     public function onUidCloseClear($uid)
     {
         // TODO: Implement onUidCloseClear() method.
+        $room = yield $this->redis_pool->getCoroutine()->get('user_Room_'.uid);
+        //退出进程
+        yield $this->redis_pool->getCoroutine()->sRem('Room:'.$room, $uid);
+        yield $this->redis_pool->getCoroutine()->del('user_Room_'.uid);
+
     }
 
     /**

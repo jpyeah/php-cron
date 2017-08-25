@@ -45,7 +45,10 @@ $client->connect($ips[array_rand($ips)], 9091, 0.5);
 
 function connect($cli)
 {
-    $cli->send(encode(json_pack('TestController', 'test', 'abc')));
+    $data['room']= 20002;
+    $data['uid'] = 10001;
+    print_r(json_pack('TestController', 'test', $data));
+    $cli->send(encode(json_pack('TestController', 'test', $data)));
 }
 
 function receive($cli, $data)

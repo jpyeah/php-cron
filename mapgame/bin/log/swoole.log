@@ -39,3 +39,188 @@ Stack trace:
 [2017-08-24 09:59:45 $407.0]	NOTICE	Server is reloading now.
 [2017-08-24 10:00:01 $407.0]	NOTICE	Server is reloading now.
 [2017-08-24 10:02:17 $407.0]	NOTICE	Server is reloading now.
+[2017-08-25 01:25:14 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 01:26:55 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 01:26:55 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 01:28:22 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 01:28:22 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:02:00 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:02:00 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:03:16 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:03:16 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:03:24 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:03:24 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:03:27 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:03:27 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:03:30 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:03:30 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:30:29 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:30:29 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:31:32 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:31:32 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:31:44 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:31:44 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:32:17 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:32:17 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:32:20 $34.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:32:20 $34.0]	ERROR	swManager_loop(:378): kill(41, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 02:34:49 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:34:56 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 02:36:22 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 03:14:17 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 03:21:37 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 03:22:12 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 03:23:25 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 03:23:43 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 03:24:03 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 03:29:36 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 03:29:43 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 03:31:04 *261.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: controller is destroy can not send data in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/CoreBase/Controller.php:213
+Stack trace:
+#0 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/CoreBase/Controller.php(196): Server\CoreBase\Controller->send('controller is d...')
+#1 [internal function]: Server\CoreBase\Controller->onExceptionHandle(Object(Server\CoreBase\SwooleException))
+#2 /app/mapgame/vendor/tmtbe/
+[2017-08-25 03:31:04 $155.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 03:31:31 *270.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: controller is destroy can not send data in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/CoreBase/Controller.php:213
+Stack trace:
+#0 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/CoreBase/Controller.php(196): Server\CoreBase\Controller->send('controller is d...')
+#1 [internal function]: Server\CoreBase\Controller->onExceptionHandle(Object(Server\CoreBase\SwooleException))
+#2 /app/mapgame/vendor/tmtbe/
+[2017-08-25 03:31:31 $155.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 03:31:46 *271.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: controller is destroy can not send data in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/CoreBase/Controller.php:213
+Stack trace:
+#0 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/CoreBase/Controller.php(196): Server\CoreBase\Controller->send('controller is d...')
+#1 [internal function]: Server\CoreBase\Controller->onExceptionHandle(Object(Server\CoreBase\SwooleException))
+#2 /app/mapgame/vendor/tmtbe/
+[2017-08-25 03:31:46 $155.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 03:32:09 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 03:49:05 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 04:44:59 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 04:56:15 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 04:57:16 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 04:57:46 *309.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method app\Controllers\TestController::addToGroup() in /app/mapgame/src/app/Controllers/TestController.php:54
+Stack trace:
+#0 [internal function]: app\Controllers\TestController->add_togroup()
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Coroutine/Coroutine.php(95): call_user_func_array(Array, Array)
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(170): Server\Coroutine\Coroutin
+[2017-08-25 04:57:46 $155.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 04:58:02 *318.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method app\Controllers\TestController::coroutineGetAllGroups() in /app/mapgame/src/app/Controllers/TestController.php:59
+Stack trace:
+#0 [internal function]: app\Controllers\TestController->get_group()
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Coroutine/Coroutine.php(95): call_user_func_array(Array, Array)
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(170): Server\Coroutine
+[2017-08-25 04:58:02 $155.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 04:58:45 $155.0]	NOTICE	Server is reloading now.
+[2017-08-25 04:58:47 *320.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method app\Controllers\TestController::coroutineGetAllGroups() in /app/mapgame/src/app/Controllers/TestController.php:59
+Stack trace:
+#0 [internal function]: app\Controllers\TestController->get_group()
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Coroutine/Coroutine.php(95): call_user_func_array(Array, Array)
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(170): Server\Coroutine
+[2017-08-25 04:58:47 $155.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 04:59:26 *340.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method app\Controllers\TestController::addToGroup() in /app/mapgame/src/app/Controllers/TestController.php:54
+Stack trace:
+#0 [internal function]: app\Controllers\TestController->add_togroup()
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Coroutine/Coroutine.php(95): call_user_func_array(Array, Array)
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(170): Server\Coroutine\Coroutin
+[2017-08-25 04:59:26 $331.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 05:01:23 $331.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:01:51 $331.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:11:00 $331.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:11:20 *366.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method app\Controllers\TestController::addToGroup() in /app/mapgame/src/app/Controllers/TestController.php:54
+Stack trace:
+#0 [internal function]: app\Controllers\TestController->addgroup()
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Coroutine/Coroutine.php(95): call_user_func_array(Array, Array)
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(170): Server\Coroutine\Coroutine::
+[2017-08-25 05:11:20 $331.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 05:11:39 *386.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method app\Controllers\TestController::addToGroup() in /app/mapgame/src/app/Controllers/TestController.php:54
+Stack trace:
+#0 [internal function]: app\Controllers\TestController->addgroup()
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Coroutine/Coroutine.php(95): call_user_func_array(Array, Array)
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(170): Server\Coroutine\Coroutine::
+[2017-08-25 05:11:39 $377.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 05:12:28 $377.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:27:30 $404.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:27:41 *420.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method app\Controllers\TestController::coroutineCountOnline() in /app/mapgame/src/app/Controllers/TestController.php:54
+Stack trace:
+#0 [internal function]: app\Controllers\TestController->addgroup()
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Coroutine/Coroutine.php(95): call_user_func_array(Array, Array)
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(170): Server\Coroutine\C
+[2017-08-25 05:27:41 $404.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 05:27:53 *440.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Error: Call to undefined method app\Controllers\TestController::coroutineCountOnline() in /app/mapgame/src/app/Controllers/TestController.php:54
+Stack trace:
+#0 [internal function]: app\Controllers\TestController->addgroup()
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Coroutine/Coroutine.php(95): call_user_func_array(Array, Array)
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(170): Server\Coroutine\C
+[2017-08-25 05:27:53 $431.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-08-25 05:28:40 $431.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:30:39 $458.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:33:43 $458.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:34:06 $458.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:35:33 $458.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:35:45 $458.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:39:24 $458.0]	NOTICE	Server is reloading now.
+[2017-08-25 05:43:41 $529.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:08:21 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:08:28 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:08:55 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:09:26 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:17:39 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:23:46 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:23:58 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:25:25 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:25:53 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:27:49 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:28:13 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:28:36 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:29:23 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:30:18 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:31:24 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:31:24 $50.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:31:33 $50.0]	ERROR	swManager_loop(:378): kill(189, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 06:31:33 $50.0]	ERROR	swManager_loop(:378): kill(190, SIGTERM) failed. Error: No such process[3].
+[2017-08-25 06:32:39 $50.0]	ERROR	swManager_loop(:272): wait() failed. Error: Interrupted system call[4].
+[2017-08-25 06:36:31 $205.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=0, signal=9
+[2017-08-25 06:39:07 $222.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=0, signal=9
+[2017-08-25 06:51:50 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:52:03 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:52:20 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:53:28 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:53:47 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:53:58 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 06:59:30 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:00:00 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:00:06 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:00:31 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:00:58 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:03:17 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:03:44 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:04:05 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:04:24 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:04:34 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:05:02 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:06:14 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:06:41 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:06:43 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:06:50 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:07:02 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:07:53 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:09:09 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:09:20 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:10:41 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:10:51 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:11:03 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:11:43 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:14:28 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:14:53 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:15:05 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:15:38 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:15:52 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:16:00 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:18:02 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:18:05 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:19:41 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:22:11 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:35:37 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:36:09 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:36:16 $257.0]	NOTICE	Server is reloading now.
+[2017-08-25 07:36:41 $257.0]	NOTICE	Server is reloading now.
