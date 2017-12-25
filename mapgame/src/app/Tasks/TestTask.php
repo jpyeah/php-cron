@@ -9,11 +9,20 @@ use Server\CoreBase\Task;
  * Date: 16-7-15
  * Time: 下午1:06
  */
-class AppTask extends Task
+class CarTask extends Task
 {
 
-    public function testTask()
-    {
-           print_r("dsfasdfsd");exit;
+
+    public function model(){
+        
+
     }
+
+
+    public function test(){
+
+        print_r('test');exit;
+    }
+
+
 }

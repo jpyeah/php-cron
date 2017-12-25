@@ -224,3 +224,249 @@ Stack trace:
 [2017-08-25 07:36:09 $257.0]	NOTICE	Server is reloading now.
 [2017-08-25 07:36:16 $257.0]	NOTICE	Server is reloading now.
 [2017-08-25 07:36:41 $257.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:37:53 $53.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:37:57 $53.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:38:45 $89.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:40:59 $115.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:43:20 $141.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:47:19 $167.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:48:37 $193.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:49:03 $219.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:49:08 $219.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:49:13 ^274.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 1, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:13 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:16 ^284.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 2, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:16 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:17 ^287.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:17 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:18 ^288.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 1, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:18 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:19 ^289.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 3, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:19 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:20 ^290.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 1, 1, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:20 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:21 ^291.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 2, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:21 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:22 ^292.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 1, 2, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:22 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:23 ^293.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 2, 2, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:23 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:24 ^294.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 3, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:24 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:25 ^295.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 4, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:25 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:26 ^296.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 3, 2, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:26 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:27 ^297.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 4, 2, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:27 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:28 ^298.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 1, 3, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:28 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:29 ^299.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 2, 1, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:29 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:30 ^300.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method test not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 3, 1, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/Se
+[2017-12-25 16:49:30 $270.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:49:30 $270.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:49:49 $312.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:49:55 $312.0]	NOTICE	Server is reloading now.
+[2017-12-25 16:53:00 ^360.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method getmodel not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 1, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/sr
+[2017-12-25 16:53:00 $356.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:53:03 ^370.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method getmodel not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/sr
+[2017-12-25 16:53:03 $356.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:53:04 ^373.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method getmodel not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 2, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/sr
+[2017-12-25 16:53:04 $356.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:53:05 *367.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class app\Tasks\CarTask, because the name is already in use in /app/mapgame/src/app/Tasks/TestTask.php on line 31.
+[2017-12-25 16:53:05 $356.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-12-25 16:53:06 *365.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class app\Tasks\CarTask, because the name is already in use in /app/mapgame/src/app/Tasks/TestTask.php on line 31.
+[2017-12-25 16:53:06 $356.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-25 16:53:07 ^374.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method getmodel not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 3, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/sr
+[2017-12-25 16:53:07 $356.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:53:08 ^377.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method getmodel not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 2, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/sr
+[2017-12-25 16:53:08 $356.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:53:09 ^378.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method getmodel not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/sr
+[2017-12-25 16:53:09 $356.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:53:58 ^385.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method getmodel not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 1, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/sr
+[2017-12-25 16:53:58 $381.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:54:01 *391.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class app\Tasks\CarTask, because the name is already in use in /app/mapgame/src/app/Tasks/TestTask.php on line 31.
+[2017-12-25 16:54:01 $381.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-12-25 16:54:02 ^395.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method getmodel not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 2, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/sr
+[2017-12-25 16:54:02 $381.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:54:03 ^399.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method getmodel not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/sr
+[2017-12-25 16:54:03 $381.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:54:29 ^406.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method model not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 3, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/S
+[2017-12-25 16:54:29 $402.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:54:31 ^416.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method model not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/S
+[2017-12-25 16:54:31 $402.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:54:32 *411.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class app\Tasks\CarTask, because the name is already in use in /app/mapgame/src/app/Tasks/TestTask.php on line 31.
+[2017-12-25 16:54:32 $402.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-25 16:54:33 *414.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class app\Tasks\CarTask, because the name is already in use in /app/mapgame/src/app/Tasks/TestTask.php on line 31.
+[2017-12-25 16:54:33 $402.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-12-25 16:54:34 ^419.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method model not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 1, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/S
+[2017-12-25 16:54:34 $402.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:54:35 ^422.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method model not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 3, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/S
+[2017-12-25 16:54:35 $402.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:55:05 ^429.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method model not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 3, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/S
+[2017-12-25 16:55:05 $425.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:55:08 ^439.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method model not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 0, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/S
+[2017-12-25 16:55:08 $425.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:55:09 ^442.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method model not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 1, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/S
+[2017-12-25 16:55:09 $425.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:55:10 ^443.4]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: method model not exist in TestTask in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleDistributedServer.php:298
+Stack trace:
+#0 [internal function]: Server\SwooleDistributedServer->onSwooleTask(Object(swoole_websocket_server), 0, 2, Array)
+#1 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/SwooleWebSocketServer.php(57): swoole_http_server->start()
+#2 /app/mapgame/vendor/tmtbe/swooledistributed/src/S
+[2017-12-25 16:55:10 $425.0]	WARNING	swManager_check_exit_status: worker#4 abnormal exit, status=255, signal=0
+[2017-12-25 16:55:11 *435.1]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class app\Tasks\CarTask, because the name is already in use in /app/mapgame/src/app/Tasks/TestTask.php on line 33.
+[2017-12-25 16:55:11 $425.0]	WARNING	swManager_check_exit_status: worker#1 abnormal exit, status=255, signal=0
+[2017-12-25 16:55:12 *434.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class app\Tasks\CarTask, because the name is already in use in /app/mapgame/src/app/Tasks/TestTask.php on line 33.
+[2017-12-25 16:55:12 $425.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-25 16:55:13 *437.3]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Cannot declare class app\Tasks\CarTask, because the name is already in use in /app/mapgame/src/app/Tasks/TestTask.php on line 33.
+[2017-12-25 16:55:13 $425.0]	WARNING	swManager_check_exit_status: worker#3 abnormal exit, status=255, signal=0
+[2017-12-25 16:56:10 *460.2]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: class task_class not exists in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/CoreBase/Loader.php:70
+Stack trace:
+#0 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Components/TimerTask/TimerTask.php(163): Server\CoreBase\Loader->task('CarTask', Object(app\AppServer))
+#1 [internal function]: Server\Components\TimerTask\TimerTask::Server\Components\TimerTask\{closure}(Object(Server\Components\Event\Event)
+[2017-12-25 16:56:10 $449.0]	WARNING	swManager_check_exit_status: worker#2 abnormal exit, status=255, signal=0
+[2017-12-25 16:56:13 *458.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: class task_class not exists in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/CoreBase/Loader.php:70
+Stack trace:
+#0 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Components/TimerTask/TimerTask.php(163): Server\CoreBase\Loader->task('CarTask', Object(app\AppServer))
+#1 [internal function]: Server\Components\TimerTask\TimerTask::Server\Components\TimerTask\{closure}(Object(Server\Components\Event\Event)
+[2017-12-25 16:56:13 $449.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-25 16:56:14 *466.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: class task_class not exists in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/CoreBase/Loader.php:70
+Stack trace:
+#0 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Components/TimerTask/TimerTask.php(163): Server\CoreBase\Loader->task('CarTask', Object(app\AppServer))
+#1 [internal function]: Server\Components\TimerTask\TimerTask::Server\Components\TimerTask\{closure}(Object(Server\Components\Event\Event)
+[2017-12-25 16:56:14 $449.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
+[2017-12-25 16:56:15 *467.0]	ERROR	zm_deactivate_swoole (ERROR 503): Fatal error: Uncaught Server\CoreBase\SwooleException: class task_class not exists in /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/CoreBase/Loader.php:70
+Stack trace:
+#0 /app/mapgame/vendor/tmtbe/swooledistributed/src/Server/Components/TimerTask/TimerTask.php(163): Server\CoreBase\Loader->task('CarTask', Object(app\AppServer))
+#1 [internal function]: Server\Components\TimerTask\TimerTask::Server\Components\TimerTask\{closure}(Object(Server\Components\Event\Event)
+[2017-12-25 16:56:15 $449.0]	WARNING	swManager_check_exit_status: worker#0 abnormal exit, status=255, signal=0
