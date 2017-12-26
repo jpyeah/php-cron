@@ -21,8 +21,8 @@ $config['timerTask'][] = [
     'start_time'=>'Y-m-d 00:00:00',
     'end_time'=>'Y-m-d 23:59:59',
     'task_name' => 'CarTask',
-    'method_name' => 'model',
-    'interval_time' => '1',
+    'method_name' => 'series',
+    'interval_time' => '10',
 ];
 //下面例子表示在每天的14点到15点间每隔1秒执行一次，一共执行5次
 /*$config['timerTask'][] = [
