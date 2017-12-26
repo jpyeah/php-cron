@@ -194,6 +194,24 @@ class CarTask extends Task
 
             if(isset($data["data"][0]["Oil_FuelType"])){
                 $arr["Oil_FuelType"]=$data["data"][0]["Oil_FuelType"];
+
+                switch($arr['Oil_FuelType']){
+
+                    case '汽油':
+                        $arr['Oil_FuelType_type'] =1;
+                        break;
+                    case '柴油':
+                        $arr['Oil_FuelType_type'] =2;
+                        break;
+
+                    case '油电混合':
+                        $arr['Oil_FuelType_type'] =3;
+                        break;
+
+                    default :
+                        $arr['Oil_FuelType_type'] =1;
+
+                }
             }
 
             if(isset($data["data"][0]["Oil_SupplyType"])){
